@@ -36,10 +36,10 @@ public class NumberGuessBean	 {
       hint = "a number next time";
     }
     else if (g < answer) {
-      hint = "higher";
+      hint = "higher number";
     }
     else if (g > answer) {
-      hint = "lower";
+      hint = "lower number";
     }
   }
 

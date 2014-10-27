@@ -12,7 +12,7 @@
 
 <% if (numguess.getSuccess()) { %>
 
-  Congratulations!  You got it.
+  Yatta!  You got it.
   And after just <%= numguess.getNumGuesses() %> tries.<p>
 
   <% numguess.reset(); %>
